@@ -1,0 +1,57 @@
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.vscode/
+
+# Serverless directories
+.serverless
+
+*~
+venv
+.venv
+.env
+__pycache__/
+
+cov/
+.coverage
+.sonar
+.scannerwork
+
+python/
+python*.zip
+commons*.zip
+
+# Pycharm
+.idea/
+
+.DS_Store
+/.aws-sam/temp-template.yaml
+/.envs/dev.json
+
+src/.dsd_*
+
+# package manager uv
+uv.lock
+
+#ruff
+.ruff_cache
+
+# pulumi
+*/__pycache__/
+
+# mypy
+.mypy_cache/
